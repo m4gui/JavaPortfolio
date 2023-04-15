@@ -27,10 +27,9 @@ public class SvPersona extends HttpServlet {
         processRequest(request, response);
         
         List <Persona> listaPersonas = control.traerPersonas();
-        
         HttpSession miSession = request.getSession();
         
-        miSession.setAttribute("ListaPersonas", listaPersonas);
+        miSession.setAttribute("listaPersonas", listaPersonas);
         
         response.sendRedirect("verPersonas.jsp");
     }

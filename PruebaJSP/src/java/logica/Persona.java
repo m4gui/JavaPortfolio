@@ -1,5 +1,4 @@
 package logica;
-
 import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Entity;
