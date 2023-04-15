@@ -5,9 +5,12 @@
         <group>
             <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/logica/Controladora.java</file>
             <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/persistencia/ControladoraPersistencia.java</file>
+            <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/servlets/SvEliminar.java</file>
+            <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/web/verPersonas.jsp</file>
+            <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/web/index.jsp</file>
             <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/persistencia/PersonaJpaController.java</file>
             <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/logica/Persona.java</file>
-            <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/Mogul/OneDrive/Documentos/NetBeansProjects/PruebaJSP/src/java/servlets/SvPersona.java</file>
         </group>
     </open-files>
 </project-private>

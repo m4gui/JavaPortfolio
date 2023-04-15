@@ -1,10 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 13 mar 2023, 19:28:41
-    Author     : Mogul
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,13 +16,13 @@
         </form>
         <h1>Ver lista de Personas</h1>
         <p>Si deseas ver todas las personas haga click en el boton mostrar personas</p>
-        <form action=" " method=" ">
+        <form action="SvPersona" method="GET">
             <button type="submit">Mostrar personas</button>
         </form>
         <h1>Eliminar personas</h1>
-        <p>Ingrese el DNI de la persona a eliminar</p>
-        <form action=" " method=" ">
-            <p><label>Dni: </label> <input type="text" name="dni_elim"></p>
+        <p>Ingrese el Id de la persona a eliminar</p>
+        <form action="SvEliminar" method="POST">
+            <p><label>Id: </label> <input type="text" name="id_eliminar"></p>
             <button type="submit">Eliminar</button>
         </form>
     </body>
